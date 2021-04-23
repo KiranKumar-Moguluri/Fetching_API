@@ -75,7 +75,7 @@ DsortBtn.addEventListener("click", () => {
 });
 
 AsortBtn.addEventListener("click", () => {
-  const appstate_dup = [...appstate];
-  appstate_dup.sort((a, b) => (a.name > b.name ? 1 : -1));
-  domRender(appstate_dup);
+  const appstate_Dup = [...appstate];
+  appstate_Dup.sort((a, b) => (a.name > b.name ? 1 : -1));
+  domRender(appstate_Dup);
 });
